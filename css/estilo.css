@@ -1,0 +1,130 @@
+﻿body{
+	text-align: center;
+}
+#logo{
+	text-align:center;
+	background-color: #93DB70;
+}
+#login{
+	text-align:center;
+	margin-bottom:50px;
+}
+#campos{
+	text-align:left;
+	height:40%;
+	width:65%;
+	top:40%;
+	left:7%;
+	position:absolute;
+}
+#botao{
+	text-align:center;
+}
+#arvore{
+	text-align:center;
+	position:absolute;
+	top:50%;
+	right:10%;
+	height:45%;
+	width:30%;
+}
+#bemvindo{
+	background-color:#EEEEEE;
+	text-align:center;
+}
+#dauch{
+	text-align:center;
+	position:absolute;
+	top:50%;
+	height:45%;
+	width:30%;
+}
+#perfil{
+	text-align:center;
+	position:absolute;
+	top:60%;
+	left:15%;
+	height:45%;
+	width:30%;
+}
+#sair{
+	text-align:center;
+	position:absolute;
+	top:60%;
+	left:55%;
+	height:45%;
+	width:30%;
+}
+#cadastrosucesso{
+	text-align:center;
+	margin-bottom:60px;
+}
+#fundobemvindo{
+	background-color: #93DB70;
+	height:75%;
+}
+#fundoindex{
+	background-color: #EEEEEE;
+	height:75%;
+}
+#fundoops{
+	background-color: #93DB70;
+	height:75%;
+}
+#fundoalteracad{
+	background-color: #93DB70;
+	height:75%;
+    text-align: center;
+    margin-top: 0px;
+}
+#logoalteracad{
+	background-color: #EEEEEE;
+	height:25%;
+	margin-bottom: 0px;
+}
+#camposalteracad{
+    background-color: #93DB70;
+    text-align: center;
+}
+#login2{
+	text-align:left;
+	margin-bottom:50px;
+}
+#bulldog{
+	text-align:center;
+	position:absolute;
+	top:50%;
+	right:10%;
+	height:45%;
+	width:30%;
+}
+#algodeuerrado{
+	background-color:#EEEEEE;
+	text-align:center;
+}
+#Cadastre-se{
+	text-align:center;
+}
+#campos2{
+	text-align:left;
+}
+#corpoindex{
+	background-color:#EEEEEE;
+	text-align:center;
+}
+#fundohome{
+	height:500px;
+	background-color:#93DB70;
+}
+#listaPets{
+	text-align:right;
+	margin-right: 15%;
+}
+#corpoops{
+	text-align:left;
+}
+#corpoFeedPet{
+		background-color:#93DB70;
+		width:100%;
+		height:75%;
+}

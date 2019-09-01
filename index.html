@@ -1,0 +1,80 @@
+﻿<html>
+	<head>
+		<meta charset="iso-8859-1"> 
+		<title>
+			Bem-vindo a Social Pets!
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+		<link rel="stylesheet" href="css/css/bootstrap.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/js.js"> </script>
+	</head>
+	
+	<body>
+		
+	<div id="logo">
+			<img src="Imagens/cachorro_logo_e.png" height="27%" width="15%" style="margin-right:5%">
+			<img src="Imagens/logo.png" height="25%" width="50%" style="margin-right:5%">
+			<img src="Imagens/cachorro_logo_d.png" height="27%" width="15%">
+		</div>
+		
+		<div id="fundoindex">
+			<form name="logar" action="processa.php" method="post">
+				<div id="login">
+					<br><br><br>
+					Login: <input style="margin-right:50px" type="text" name="login" placeholder="E-mail" required>
+					Senha: <input style="margin-right:10px" type="password" name="senha" placeholder="Senha" required>
+					<input type="submit" name="botao" value="Acessar"> <br>
+					<a href="recuperaSenha.class.php" style="margin-left:20%"> Esqueci minha senha </a>
+			</form>
+		</div>
+
+		<div style="width:50%; margin:20 auto;"><br>
+			<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cadastro"> Cadastre-se </button>		 
+
+				<!-- Modal -->
+				<div id="cadastro" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title"> Cadastre-se </h4>
+					  </div>
+					  <div class="modal-body">
+						<p>
+							<form class="form-horizontal" name="formCadastro" action="processa.php" method="post" onsubmit="return verificaCadastro();">
+								<div class="form-field"> Nome: <input class="form-control" type="text" name="nome" style="width:100%" required> </div><br>
+								<div class="clear-both"></div>
+								<div class="form-field">Sobrenome:</div> 
+								<div class="form-field"><input class="form-control" type="text" name="sobrenome" style="width:100%;" required></div> <br>
+								<div class="clear-both"></div>
+								<div class="form-field">E-mail:</div> 
+								<div class="form-field"><input class="form-control" type="text" name="email" style="width:100%;" required> </div><br>
+								<div class="clear-both"></div>
+								<div class="form-field">Telefone:</div> 
+								<div class="form-field"><input class="form-control" type="int" name="telefone" style="width:100%;" required></div> <br>
+								<div class="clear-both"></div>
+								<div class="form-field">Senha: </div> 
+								<div class="form-field"><input class="form-control" type="password" name="senha" style="width:100%;" required> </div><br>
+								<div class="clear-both"></div>
+								<div class="form-field">Confirmar Senha: </div> 
+								<div class="form-field"><input class="form-control" type="password" name="confirma" style="width:100%;" required> </div><br>
+								<div class="clear-both"></div>
+								<div class="form-field"><input type="submit" name="botao" value="Cadastrar"> </div>
+							</form>
+						</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
+		</div>   
+	</body>
+</html>
